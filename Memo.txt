@@ -1,0 +1,14 @@
+
+# [1] 好きなファイルをgitに追加
+git add *
+
+# [2]コミット
+git commit -m "Tool Commit"
+
+# [3]リモートにアップデート
+git remote add origin https://github.com/kyouken/1.git
+
+# [4] push これでOK
+git push -u origin master
+
+
